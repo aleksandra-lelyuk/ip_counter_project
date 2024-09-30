@@ -1,0 +1,565 @@
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[22 23 23 24 25 24 26 24]
+Average Estimated Count: 16627222
+Harmonic Estimated Count: 8835639
+Custom Estimated Count: 11900277
+Average estimation: 12454379
+Time taken: 9.22 s
+[../../data/medium_test_result.csv medium.txt 8 fnv32 false 16627222 8835639 11900277 12454379 9.22 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[28 25 23 22 24 22 26 26]
+Average Estimated Count: 45420705
+Harmonic Estimated Count: 8606736
+Custom Estimated Count: 18352736
+Average estimation: 24126726
+Time taken: 24.10 s
+[../../data/medium_test_result.csv medium.txt 8 fnv32 true 45420705 8606736 18352736 24126726 24.10 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[22 23 23 24 25 24 26 24 24 26 23 31 24 23 23 22]
+Average Estimated Count: 118418267
+Harmonic Estimated Count: 8648748
+Custom Estimated Count: 14778452
+Average estimation: 47281822
+Time taken: 18.78 s
+[../../data/medium_test_result.csv medium.txt 16 fnv32 false 118418267 8648748 14778452 47281822 18.78 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[28 25 23 22 24 22 26 26 23 25 24 21 24 27 25 25]
+Average Estimated Count: 36194624
+Harmonic Estimated Count: 8083212
+Custom Estimated Count: 16829533
+Average estimation: 20369123
+Time taken: 53.26 s
+[../../data/medium_test_result.csv medium.txt 16 fnv32 true 36194624 8083212 16829533 20369123 53.26 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[22 23 23 24 25 24 26 24 24 26 23 31 24 23 23 22 25 26 27 26 27 23 25 26 26 24 24 29 25 23 23 23 23 25 26 24 23 23 23 25 26 24 23 26 24 25 27 24 24 26 27 24 28 24 22 25 23 23 26 25 25 28 23 24]
+Average Estimated Count: 63315246
+Harmonic Estimated Count: 11965155
+Custom Estimated Count: 20231737
+Average estimation: 31837380
+Time taken: 77.81 s
+[../../data/medium_test_result.csv medium.txt 64 fnv32 false 63315246 11965155 20231737 31837380 77.81 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[28 25 23 22 24 22 26 26 23 25 24 21 24 27 25 25 23 23 24 25 23 28 26 25 24 23 23 22 23 22 22 25 24 24 23 24 24 25 23 25 22 23 23 25 25 24 24 22 23 24 22 26 25 26 24 23 24 24 27 25 24 21 25 27]
+Average Estimated Count: 26208152
+Harmonic Estimated Count: 8243673
+Custom Estimated Count: 13699471
+Average estimation: 16050432
+Time taken: 207.47 s
+[../../data/medium_test_result.csv medium.txt 64 fnv32 true 26208152 8243673 13699471 16050432 207.47 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[22 23 23 24 25 24 26 24 24 26 23 31 24 23 23 22 25 26 27 26 27 23 25 26 26 24 24 29 25 23 23 23 23 25 26 24 23 23 23 25 26 24 23 26 24 25 27 24 24 26 27 24 28 24 22 25 23 23 26 25 25 28 23 24 24 23 25 24 24 23 22 24 23 23 23 28 23 26 25 22 25 27 23 24 24 24 26 25 27 24 23 23 24 26 27 25 25 24 22 23 25 25 22 23 24 21 23 24 29 26 25 25 25 24 24 22 28 24 24 23 23 22 25 24 24 27 24 24]
+Average Estimated Count: 48348212
+Harmonic Estimated Count: 10575519
+Custom Estimated Count: 17670069
+Average estimation: 25531267
+Time taken: 158.94 s
+[../../data/medium_test_result.csv medium.txt 128 fnv32 false 48348212 10575519 17670069 25531267 158.94 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[28 25 23 22 24 22 26 26 23 25 24 21 24 27 25 25 23 23 24 25 23 28 26 25 24 23 23 22 23 22 22 25 24 24 23 24 24 25 23 25 22 23 23 25 25 24 24 22 23 24 22 26 25 26 24 23 24 24 27 25 24 21 25 27 24 23 24 23 25 25 24 23 26 24 26 25 22 24 23 26 24 25 25 22 22 23 26 26 25 24 23 25 23 26 26 22 23 25 23 25 30 24 25 23 24 23 25 23 24 27 25 24 25 28 24 30 24 23 25 23 23 29 23 23 27 26 25 26]
+Average Estimated Count: 41542710
+Harmonic Estimated Count: 9553415
+Custom Estimated Count: 16116016
+Average estimation: 22404047
+Time taken: 404.91 s
+[../../data/medium_test_result.csv medium.txt 128 fnv32 true 41542710 9553415 16116016 22404047 404.91 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[24 23 24 25 24 24 23 25]
+Average Estimated Count: 14599512
+Harmonic Estimated Count: 11535417
+Custom Estimated Count: 12977344
+Average estimation: 13037425
+Time taken: 10.60 s
+[../../data/medium_test_result.csv medium.txt 8 fnv64 false 14599512 11535417 12977344 13037425 10.60 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[27 25 24 24 22 23 23 25]
+Average Estimated Count: 24738063
+Harmonic Estimated Count: 9332023
+Custom Estimated Count: 14151894
+Average estimation: 16073993
+Time taken: 27.43 s
+[../../data/medium_test_result.csv medium.txt 8 fnv64 true 24738063 9332023 14151894 16073993 27.43 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[24 23 24 25 24 24 23 25 23 23 23 22 27 25 25 24]
+Average Estimated Count: 19263246
+Harmonic Estimated Count: 9828995
+Custom Estimated Count: 12977344
+Average estimation: 14023195
+Time taken: 20.71 s
+[../../data/medium_test_result.csv medium.txt 16 fnv64 false 19263246 9828995 12977344 14023195 20.71 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[27 25 24 24 22 23 23 25 27 23 23 26 26 24 28 23]
+Average Estimated Count: 40351430
+Harmonic Estimated Count: 11037210
+Custom Estimated Count: 19165281
+Average estimation: 23517974
+Time taken: 53.06 s
+[../../data/medium_test_result.csv medium.txt 16 fnv64 true 40351430 11037210 19165281 23517974 53.06 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[24 23 24 25 24 24 23 25 23 23 23 22 27 25 25 24 25 25 23 23 25 26 23 24 23 24 22 23 22 25 25 25 24 26 27 23 23 25 26 26 25 25 23 22 27 24 23 24 24 22 24 26 27 27 23 23 26 23 22 24 25 25 23 26]
+Average Estimated Count: 24636677
+Harmonic Estimated Count: 10021720
+Custom Estimated Count: 15102058
+Average estimation: 16586818
+Time taken: 79.93 s
+[../../data/medium_test_result.csv medium.txt 64 fnv64 false 24636677 10021720 15102058 16586818 79.93 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[27 25 24 24 22 23 23 25 27 23 23 26 26 24 28 23 26 26 25 25 22 24 23 28 23 27 27 24 22 23 22 24 26 24 23 24 26 23 26 22 24 26 24 27 24 24 24 23 24 23 22 24 24 23 24 25 25 23 22 23 28 23 31 24]
+Average Estimated Count: 58347357
+Harmonic Estimated Count: 9908697
+Custom Estimated Count: 17198052
+Average estimation: 28484702
+Time taken: 204.36 s
+[../../data/medium_test_result.csv medium.txt 64 fnv64 true 58347357 9908697 17198052 28484702 204.36 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[24 23 24 25 24 24 23 25 23 23 23 22 27 25 25 24 25 25 23 23 25 26 23 24 23 24 22 23 22 25 25 25 24 26 27 23 23 25 26 26 25 25 23 22 27 24 23 24 24 22 24 26 27 27 23 23 26 23 22 24 25 25 23 26 30 24 28 27 25 25 24 25 24 24 24 23 24 28 28 23 23 24 25 24 23 22 24 26 24 23 25 23 23 22 22 25 26 24 23 23 26 27 25 25 23 25 27 28 27 25 27 23 22 23 28 25 22 28 28 26 25 26 27 27 25 26 32 24]
+Average Estimated Count: 68815410
+Harmonic Estimated Count: 11207971
+Custom Estimated Count: 20013801
+Average estimation: 33345727
+Time taken: 160.34 s
+[../../data/medium_test_result.csv medium.txt 128 fnv64 false 68815410 11207971 20013801 33345727 160.34 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[27 25 24 24 22 23 23 25 27 23 23 26 26 24 28 23 26 26 25 25 22 24 23 28 23 27 27 24 22 23 22 24 26 24 23 24 26 23 26 22 24 26 24 27 24 24 24 23 24 23 22 24 24 23 24 25 25 23 22 23 28 23 31 24 23 23 25 23 24 22 21 26 26 25 26 23 23 23 24 24 25 29 31 23 25 23 26 23 27 24 25 27 22 24 23 24 24 25 23 25 26 23 26 25 23 28 26 22 24 26 26 23 24 24 25 24 25 26 26 25 22 21 25 21 23 23 28 25]
+Average Estimated Count: 59424578
+Harmonic Estimated Count: 9412165
+Custom Estimated Count: 17385327
+Average estimation: 28740690
+Time taken: 407.19 s
+[../../data/medium_test_result.csv medium.txt 128 fnv64 true 59424578 9412165 17385327 28740690 407.19 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 24 28 25 22 25 24 23]
+Average Estimated Count: 37715407
+Harmonic Estimated Count: 9384746
+Custom Estimated Count: 15432750
+Average estimation: 20844301
+Time taken: 12.19 s
+[../../data/medium_test_result.csv medium.txt 8 xxhash false 37715407 9384746 15432750 20844301 12.19 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 8
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 23 24 24 28 24 23 24]
+Average Estimated Count: 34876613
+Harmonic Estimated Count: 10317392
+Custom Estimated Count: 14151894
+Average estimation: 19781966
+Time taken: 29.80 s
+[../../data/medium_test_result.csv medium.txt 8 xxhash true 34876613 10317392 14151894 19781966 29.80 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 24 28 25 22 25 24 23 24 26 26 23 23 24 24 25]
+Average Estimated Count: 30212880
+Harmonic Estimated Count: 10892460
+Custom Estimated Count: 16116016
+Average estimation: 19073785
+Time taken: 23.95 s
+[../../data/medium_test_result.csv medium.txt 16 xxhash false 30212880 10892460 16116016 19073785 23.95 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 23 24 24 28 24 23 24 25 24 25 24 24 24 26 24]
+Average Estimated Count: 27982399
+Harmonic Estimated Count: 12728736
+Custom Estimated Count: 16116016
+Average estimation: 18942384
+Time taken: 58.49 s
+[../../data/medium_test_result.csv medium.txt 16 xxhash true 27982399 12728736 16116016 18942384 58.49 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 24 28 25 22 25 24 23 24 26 26 23 23 24 24 25 23 25 24 24 25 23 23 24 24 23 26 24 33 24 24 24 23 27 25 25 22 22 23 31 25 25 26 23 23 29 24 24 23 24 24 23 23 25 23 26 22 28 27 24 23 24 26 27]
+Average Estimated Count: 162318190
+Harmonic Estimated Count: 10922395
+Custom Estimated Count: 18958833
+Average estimation: 64066473
+Time taken: 92.88 s
+[../../data/medium_test_result.csv medium.txt 64 xxhash false 162318190 10922395 18958833 64066473 92.88 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 64
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 23 24 24 28 24 23 24 25 24 25 24 24 24 26 24 25 24 24 24 24 29 30 22 24 23 26 23 22 24 24 24 25 21 25 25 30 23 26 24 22 23 23 25 28 23 23 28 24 28 26 27 26 24 25 23 24 28 23 21 24 25 24 26]
+Average Estimated Count: 64886722
+Harmonic Estimated Count: 10190798
+Custom Estimated Count: 19373978
+Average estimation: 31483832
+Time taken: 222.42 s
+[../../data/medium_test_result.csv medium.txt 64 xxhash true 64886722 10190798 19373978 31483832 222.42 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 24 28 25 22 25 24 23 24 26 26 23 23 24 24 25 23 25 24 24 25 23 23 24 24 23 26 24 33 24 24 24 23 27 25 25 22 22 23 31 25 25 26 23 23 29 24 24 23 24 24 23 23 25 23 26 22 28 27 24 23 24 26 27 24 23 22 29 22 25 24 23 22 26 25 29 26 23 24 23 24 24 26 24 25 26 24 24 22 24 27 26 25 23 29 31 23 26 24 26 27 23 23 26 26 29 24 23 22 24 24 25 24 24 23 26 24 24 23 29 26 25 27 24 25 25 23 24]
+Average Estimated Count: 121535871
+Harmonic Estimated Count: 11351734
+Custom Estimated Count: 20452046
+Average estimation: 51113217
+Time taken: 167.61 s
+[../../data/medium_test_result.csv medium.txt 128 xxhash false 121535871 11351734 20452046 51113217 167.61 20000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: medium.txt
+Number of Hashes: 128
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 100000000 lines
+Number of trailing zeros from each hash:
+[23 23 24 24 28 24 23 24 25 24 25 24 24 24 26 24 25 24 24 24 24 29 30 22 24 23 26 23 22 24 24 24 25 21 25 25 30 23 26 24 22 23 23 25 28 23 23 28 24 28 26 27 26 24 25 23 24 28 23 21 24 25 24 26 25 23 26 26 24 26 22 22 26 24 23 28 24 24 23 31 25 25 25 24 23 24 24 23 24 22 23 23 23 24 24 23 22 24 23 24 23 26 24 24 25 25 24 24 25 24 25 24 24 24 22 23 25 29 25 24 22 28 26 26 29 23 23 25]
+Average Estimated Count: 63213861
+Harmonic Estimated Count: 10257167
+Custom Estimated Count: 18056993
+Average estimation: 30509340
+Time taken: 435.47 s
+[../../data/medium_test_result.csv medium.txt 128 xxhash true 63213861 10257167 18056993 30509340 435.47 20000000]
+--------------------------------------------------
+Total time taken: 49 minutes and 24 seconds
+
+
+ -------------------------------------------------- 
+ RESULTS
+ -------------------------------------------------- 
+
+
+   fileSize  numHashes hashType  parseIP  averageEstimatedCount  \
+0    medium          8    fnv32    False               16627222   
+1    medium          8    fnv32     True               45420705   
+2    medium         16    fnv32    False              118418267   
+3    medium         16    fnv32     True               36194624   
+4    medium         64    fnv32    False               63315246   
+5    medium         64    fnv32     True               26208152   
+6    medium        128    fnv32    False               48348212   
+7    medium        128    fnv32     True               41542710   
+8    medium          8    fnv64    False               14599512   
+9    medium          8    fnv64     True               24738063   
+10   medium         16    fnv64    False               19263246   
+11   medium         16    fnv64     True               40351430   
+12   medium         64    fnv64    False               24636677   
+13   medium         64    fnv64     True               58347357   
+14   medium        128    fnv64    False               68815410   
+15   medium        128    fnv64     True               59424578   
+16   medium          8   xxhash    False               37715407   
+17   medium          8   xxhash     True               34876613   
+18   medium         16   xxhash    False               30212880   
+19   medium         16   xxhash     True               27982399   
+20   medium         64   xxhash    False              162318190   
+21   medium         64   xxhash     True               64886722   
+22   medium        128   xxhash    False              121535871   
+23   medium        128   xxhash     True               63213861   
+
+    harmonicEstimatedCount  customEstimatedCount  averageOfAverages  \
+0                  8835639              11900277           12454379   
+1                  8606736              18352736           24126726   
+2                  8648748              14778452           47281822   
+3                  8083212              16829533           20369123   
+4                 11965155              20231737           31837380   
+5                  8243673              13699471           16050432   
+6                 10575519              17670069           25531267   
+7                  9553415              16116016           22404047   
+8                 11535417              12977344           13037425   
+9                  9332023              14151894           16073993   
+10                 9828995              12977344           14023195   
+11                11037210              19165281           23517974   
+12                10021720              15102058           16586818   
+13                 9908697              17198052           28484702   
+14                11207971              20013801           33345727   
+15                 9412165              17385327           28740690   
+16                 9384746              15432750           20844301   
+17                10317392              14151894           19781966   
+18                10892460              16116016           19073785   
+19                12728736              16116016           18942384   
+20                10922395              18958833           64066473   
+21                10190798              19373978           31483832   
+22                11351734              20452046           51113217   
+23                10257167              18056993           30509340   
+
+    elapsedTimeSec  realCount  perc_accuracy  perc_error  
+0             9.22   20000000          59.50       40.50  
+1            24.10   20000000          91.76        8.24  
+2            18.78   20000000          73.89       26.11  
+3            53.26   20000000          84.15       15.85  
+4            77.81   20000000          98.84        1.16  
+5           207.47   20000000          68.50       31.50  
+6           158.94   20000000          88.35       11.65  
+7           404.91   20000000          80.58       19.42  
+8            10.60   20000000          64.89       35.11  
+9            27.43   20000000          70.76       29.24  
+10           20.71   20000000          64.89       35.11  
+11           53.06   20000000          95.83        4.17  
+12           79.93   20000000          75.51       24.49  
+13          204.36   20000000          85.99       14.01  
+14          160.34   20000000          99.93        0.07  
+15          407.19   20000000          86.93       13.07  
+16           12.19   20000000          77.16       22.84  
+17           29.80   20000000          70.76       29.24  
+18           23.95   20000000          80.58       19.42  
+19           58.49   20000000          80.58       19.42  
+20           92.88   20000000          94.79        5.21  
+21          222.42   20000000          96.87        3.13  
+22          167.61   20000000          97.74        2.26  
+23          435.47   20000000          90.28        9.72  

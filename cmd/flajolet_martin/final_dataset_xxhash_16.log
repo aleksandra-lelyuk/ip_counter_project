@@ -1,0 +1,44 @@
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: ip_addresses
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Hash 0: Processed 1 billion lines
+Hash 0: Processed 2 billion lines
+Hash 0: Processed 3 billion lines
+Hash 0: Processed 4 billion lines
+Hash 0: Processed 5 billion lines
+Hash 0: Processed 6 billion lines
+Hash 0: Processed 7 billion lines
+Hash 0: Processed 8 billion lines
+Processed 8000000000 lines
+Number of trailing zeros from each hash:
+[31 30 27 29 30 29 28 33 34 33 29 28 29 31 29 32]
+Average Estimated Count: 2342410655
+Harmonic Estimated Count: 449515454
+Custom Estimated Count: 905721239
+Average estimation: 1232549116
+Time taken: 1856.84 s
+[../../data/final_result_xxhash.csv ip_addresses 16 xxhash false 2342410655 449515454 905721239 1232549116 1856.84 1000000000]
+--------------------------------------------------
+Total time taken: 30 minutes and 57 seconds
+
+
+ -------------------------------------------------- 
+ RESULTS
+ -------------------------------------------------- 
+
+
+   numHashes hashType  parseIP  averageEstimatedCount  harmonicEstimatedCount  \
+0         16   xxhash    False             2342410655               449515454   
+
+   customEstimatedCount  averageOfAverages  elapsedTimeSec   realCount  \
+0             905721239         1232549116         1856.84  1000000000   
+
+   perc_accuracy  perc_error  
+0          90.57        9.43  

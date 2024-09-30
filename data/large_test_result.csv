@@ -1,0 +1,13 @@
+fileSize,numHashes,hashType,parseIP,averageEstimatedCount,harmonicEstimatedCount,customEstimatedCount,averageOfAverages,elapsedTimeSec,realCount
+../../data/large_test_result.csv,large.txt,8,fnv32,false,34065529,27685001,30865500,30872010,27.85,60000000
+../../data/large_test_result.csv,large.txt,16,fnv32,false,90841410,28334330,38330563,52502101,57.93,60000000
+../../data/large_test_result.csv,large.txt,64,fnv32,false,93781590,25635497,37917667,52444918,238.28,60000000
+../../data/large_test_result.csv,large.txt,128,fnv32,false,125464560,28963467,48119451,67515826,475.22,60000000
+../../data/large_test_result.csv,large.txt,8,fnv64,false,267657727,48676925,87300819,134545157,32.30,60000000
+../../data/large_test_result.csv,large.txt,16,fnv64,false,195876791,35867208,73410946,101718315,61.79,60000000
+../../data/large_test_result.csv,large.txt,64,fnv64,false,200236368,45470661,87300819,111002616,249.18,60000000
+../../data/large_test_result.csv,large.txt,128,fnv64,false,185358045,37602053,72620164,98526754,417.49,60000000
+../../data/large_test_result.csv,large.txt,8,xxhash,false,422574775,22638502,95202218,180138498,33.08,60000000
+../../data/large_test_result.csv,large.txt,16,xxhash,false,237242076,28304155,64464066,110003432,63.46,60000000
+../../data/large_test_result.csv,large.txt,64,xxhash,false,1057045251,29868504,62403207,383105654,279.01,60000000
+../../data/large_test_result.csv,large.txt,128,xxhash,false,605829072,27007077,52191240,228342463,549.09,60000000

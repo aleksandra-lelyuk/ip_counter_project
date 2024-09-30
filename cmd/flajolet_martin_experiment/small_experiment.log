@@ -1,0 +1,565 @@
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 20 20 23 19 21 20 20]
+Average Estimated Count: 1571475
+Harmonic Estimated Count: 850973
+Custom Estimated Count: 1051846
+Average estimation: 1158098
+Time taken: 0.85 s
+[../../data/small_test_result.csv small.txt 8 fnv32 false 1571475 850973 1051846 1158098 0.85 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 22 21 21 20 21 20 19]
+Average Estimated Count: 1368704
+Harmonic Estimated Count: 961285
+Custom Estimated Count: 1147046
+Average estimation: 1159012
+Time taken: 2.12 s
+[../../data/small_test_result.csv small.txt 8 fnv32 true 1368704 961285 1147046 1159012 2.12 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 20 20 23 19 21 20 20 20 22 21 19 21 19 25 22]
+Average Estimated Count: 3117604
+Harmonic Estimated Count: 916722
+Custom Estimated Count: 1364075
+Average estimation: 1799467
+Time taken: 1.55 s
+[../../data/small_test_result.csv small.txt 16 fnv32 false 3117604 916722 1364075 1799467 1.55 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 22 21 21 20 21 20 19 22 21 20 20 21 23 19 20]
+Average Estimated Count: 1672861
+Harmonic Estimated Count: 988750
+Custom Estimated Count: 1250863
+Average estimation: 1304158
+Time taken: 3.99 s
+[../../data/small_test_result.csv small.txt 16 fnv32 true 1672861 988750 1250863 1304158 3.99 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 20 20 23 19 21 20 20 20 22 21 19 21 19 25 22 21 27 20 20 22 19 20 26 23 24 23 19 22 21 22 22 18 20 21 23 25 19 22 21 25 24 18 26 19 20 20 22 19 20 20 23 22 22 20 21 19 22 20 22 21 19 21 20]
+Average Estimated Count: 6520355
+Harmonic Estimated Count: 963375
+Custom Estimated Count: 1867422
+Average estimation: 3117051
+Time taken: 5.75 s
+[../../data/small_test_result.csv small.txt 64 fnv32 false 6520355 963375 1867422 3117051 5.75 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 22 21 21 20 21 20 19 22 21 20 20 21 23 19 20 20 19 20 23 19 22 22 19 20 22 20 21 21 22 20 21 20 24 22 20 20 23 21 21 23 19 20 19 22 19 21 25 21 26 22 22 24 22 22 22 24 20 21 23 25 19 19 27]
+Average Estimated Count: 5614222
+Harmonic Estimated Count: 1112778
+Custom Estimated Count: 1908314
+Average estimation: 2878438
+Time taken: 15.09 s
+[../../data/small_test_result.csv small.txt 64 fnv32 true 5614222 1112778 1908314 2878438 15.09 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 20 20 23 19 21 20 20 20 22 21 19 21 19 25 22 21 27 20 20 22 19 20 26 23 24 23 19 22 21 22 22 18 20 21 23 25 19 22 21 25 24 18 26 19 20 20 22 19 20 20 23 22 22 20 21 19 22 20 22 21 19 21 20 20 23 20 20 22 25 20 22 21 23 21 18 20 25 25 20 23 20 20 21 19 23 19 26 25 21 23 19 22 20 20 20 22 24 22 27 20 23 22 23 23 20 23 21 22 20 24 24 22 21 20 20 23 26 22 21 23 22 22 24 18 21 23 21]
+Average Estimated Count: 7214212
+Harmonic Estimated Count: 1115768
+Custom Estimated Count: 2294092
+Average estimation: 3541358
+Time taken: 12.44 s
+[../../data/small_test_result.csv small.txt 128 fnv32 false 7214212 1115768 2294092 3541358 12.44 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: fnv32
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 22 21 21 20 21 20 19 22 21 20 20 21 23 19 20 20 19 20 23 19 22 22 19 20 22 20 21 21 22 20 21 20 24 22 20 20 23 21 21 23 19 20 19 22 19 21 25 21 26 22 22 24 22 22 22 24 20 21 23 25 19 19 27 20 19 20 21 20 28 19 18 21 20 22 21 22 21 21 22 19 20 20 20 22 21 19 22 19 20 20 21 20 25 24 23 20 26 21 20 19 19 22 23 22 21 19 20 19 22 20 23 22 21 21 20 23 22 19 23 20 21 20 22 20 19 23 19]
+Average Estimated Count: 6027685
+Harmonic Estimated Count: 1015226
+Custom Estimated Count: 1731081
+Average estimation: 2924664
+Time taken: 34.20 s
+[../../data/small_test_result.csv small.txt 128 fnv32 true 6027685 1015226 1731081 2924664 34.20 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 21 20 21 23 19 22 19]
+Average Estimated Count: 1926325
+Harmonic Estimated Count: 879820
+Custom Estimated Count: 1250863
+Average estimation: 1352336
+Time taken: 0.89 s
+[../../data/small_test_result.csv small.txt 8 fnv64 false 1926325 879820 1250863 1352336 0.89 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[27 20 24 20 20 23 19 24]
+Average Estimated Count: 17387614
+Harmonic Estimated Count: 1234101
+Custom Estimated Count: 3537974
+Average estimation: 7386563
+Time taken: 2.49 s
+[../../data/small_test_result.csv small.txt 8 fnv64 true 17387614 1234101 3537974 7386563 2.49 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 21 20 21 23 19 22 19 23 24 19 19 20 21 21 20]
+Average Estimated Count: 2534638
+Harmonic Estimated Count: 891148
+Custom Estimated Count: 1364075
+Average estimation: 1596620
+Time taken: 1.79 s
+[../../data/small_test_result.csv small.txt 16 fnv64 false 2534638 891148 1364075 1596620 1.79 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[27 20 24 20 20 23 19 24 22 20 20 21 21 21 22 20]
+Average Estimated Count: 9555584
+Harmonic Estimated Count: 1265118
+Custom Estimated Count: 2294092
+Average estimation: 4371598
+Time taken: 4.56 s
+[../../data/small_test_result.csv small.txt 16 fnv64 true 9555584 1265118 2294092 4371598 4.56 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 21 20 21 23 19 22 19 23 24 19 19 20 21 21 20 19 28 20 20 20 21 21 24 24 23 19 19 22 22 19 24 19 21 22 21 21 20 23 21 21 21 21 25 20 21 21 19 18 28 25 21 19 24 20 19 20 20 19 19 21 20 19 20]
+Average Estimated Count: 9628454
+Harmonic Estimated Count: 889121
+Custom Estimated Count: 1657689
+Average estimation: 4058421
+Time taken: 6.85 s
+[../../data/small_test_result.csv small.txt 64 fnv64 false 9628454 889121 1657689 4058421 6.85 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[27 20 24 20 20 23 19 24 22 20 20 21 21 21 22 20 20 21 20 23 22 19 20 22 20 20 20 20 19 24 18 24 21 21 20 21 19 23 22 20 22 21 21 20 20 20 28 19 20 20 19 21 21 20 20 20 19 20 23 20 20 21 24 22]
+Average Estimated Count: 7321934
+Harmonic Estimated Count: 987354
+Custom Estimated Count: 1622168
+Average estimation: 3310486
+Time taken: 17.84 s
+[../../data/small_test_result.csv small.txt 64 fnv64 true 7321934 987354 1622168 3310486 17.84 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[20 21 20 21 23 19 22 19 23 24 19 19 20 21 21 20 19 28 20 20 20 21 21 24 24 23 19 19 22 22 19 24 19 21 22 21 21 20 23 21 21 21 21 25 20 21 21 19 18 28 25 21 19 24 20 19 20 20 19 19 21 20 19 20 25 23 21 25 22 22 22 24 25 20 21 20 21 19 22 24 21 21 21 21 25 21 21 23 21 18 20 24 18 21 20 27 20 21 21 22 18 20 21 19 20 22 19 20 19 23 21 18 22 19 20 21 20 20 19 26 21 22 20 20 19 21 20 21]
+Average Estimated Count: 7858961
+Harmonic Estimated Count: 905972
+Custom Estimated Count: 1731081
+Average estimation: 3498671
+Time taken: 14.78 s
+[../../data/small_test_result.csv small.txt 128 fnv64 false 7858961 905972 1731081 3498671 14.78 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: fnv64
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[27 20 24 20 20 23 19 24 22 20 20 21 21 21 22 20 20 21 20 23 22 19 20 22 20 20 20 20 19 24 18 24 21 21 20 21 19 23 22 20 22 21 21 20 20 20 28 19 20 20 19 21 21 20 20 20 19 20 23 20 20 21 24 22 20 21 21 20 22 25 23 19 22 24 27 22 19 21 21 24 21 21 21 20 23 28 21 21 20 21 18 25 20 23 21 22 22 20 21 24 18 20 20 18 24 22 20 20 19 18 22 20 19 18 19 20 21 20 20 20 19 21 21 24 19 22 22 22]
+Average Estimated Count: 7727476
+Harmonic Estimated Count: 924181
+Custom Estimated Count: 1693988
+Average estimation: 3448548
+Time taken: 36.05 s
+[../../data/small_test_result.csv small.txt 128 fnv64 true 7727476 924181 1693988 3448548 36.05 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[21 26 20 19 22 25 21 23]
+Average Estimated Count: 11507255
+Harmonic Estimated Count: 1467403
+Custom Estimated Count: 3537974
+Average estimation: 5504210
+Time taken: 1.11 s
+[../../data/small_test_result.csv small.txt 8 xxhash false 11507255 1467403 3537974 5504210 1.11 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 8
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[22 21 19 24 20 23 21 22]
+Average Estimated Count: 3801956
+Harmonic Estimated Count: 1384250
+Custom Estimated Count: 2294092
+Average estimation: 2493433
+Time taken: 3.28 s
+[../../data/small_test_result.csv small.txt 8 xxhash true 3801956 1384250 2294092 2493433 3.28 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[21 26 20 19 22 25 21 23 23 22 19 22 20 19 20 21]
+Average Estimated Count: 6818175
+Harmonic Estimated Count: 1123884
+Custom Estimated Count: 2196830
+Average estimation: 3379630
+Time taken: 2.87 s
+[../../data/small_test_result.csv small.txt 16 xxhash false 6818175 1123884 2196830 3379630 2.87 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[22 21 19 24 20 23 21 22 21 20 20 20 22 19 21 19]
+Average Estimated Count: 2509291
+Harmonic Estimated Count: 1003080
+Custom Estimated Count: 1487535
+Average estimation: 1666635
+Time taken: 7.07 s
+[../../data/small_test_result.csv small.txt 16 xxhash true 2509291 1003080 1487535 1666635 7.07 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[21 26 20 19 22 25 21 23 23 22 19 22 20 19 20 21 19 21 19 24 21 21 19 21 21 24 24 19 21 22 25 20 21 20 23 18 19 26 25 22 20 19 22 21 20 20 20 25 23 22 20 24 22 21 24 24 19 23 22 20 21 22 22 20]
+Average Estimated Count: 6073625
+Harmonic Estimated Count: 1118586
+Custom Estimated Count: 2244934
+Average estimation: 3145715
+Time taken: 11.23 s
+[../../data/small_test_result.csv small.txt 64 xxhash false 6073625 1118586 2244934 3145715 11.23 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 64
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[22 21 19 24 20 23 21 22 21 20 20 20 22 19 21 19 19 21 19 21 19 22 20 19 22 19 21 21 20 20 20 19 22 21 20 20 21 23 22 19 20 21 20 23 21 20 19 22 21 22 21 22 24 22 20 23 23 19 19 21 22 21 20 22]
+Average Estimated Count: 2249491
+Harmonic Estimated Count: 979422
+Custom Estimated Count: 1424468
+Average estimation: 1551127
+Time taken: 23.23 s
+[../../data/small_test_result.csv small.txt 64 xxhash true 2249491 979422 1424468 1551127 23.23 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[21 26 20 19 22 25 21 23 23 22 19 22 20 19 20 21 19 21 19 24 21 21 19 21 21 24 24 19 21 22 25 20 21 20 23 18 19 26 25 22 20 19 22 21 20 20 20 25 23 22 20 24 22 21 24 24 19 23 22 20 21 22 22 20 22 22 22 19 21 20 24 21 23 19 21 19 20 20 21 22 24 23 22 22 22 20 21 20 20 19 20 21 20 22 21 23 21 22 20 21 20 24 20 24 20 20 21 21 22 23 21 22 21 21 22 20 19 20 21 22 22 21 21 21 21 22 21 21]
+Average Estimated Count: 4402349
+Harmonic Estimated Count: 1201519
+Custom Estimated Count: 2014502
+Average estimation: 2539457
+Time taken: 18.59 s
+[../../data/small_test_result.csv small.txt 128 xxhash false 4402349 1201519 2014502 2539457 18.59 2000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: small.txt
+Number of Hashes: 128
+Hash Type: xxhash
+Parse IPs: true
+--------------------------------------------------
+Processed 10000000 lines
+Number of trailing zeros from each hash:
+[22 21 19 24 20 23 21 22 21 20 20 20 22 19 21 19 19 21 19 21 19 22 20 19 22 19 21 21 20 20 20 19 22 21 20 20 21 23 22 19 20 21 20 23 21 20 19 22 21 22 21 22 24 22 20 23 23 19 19 21 22 21 20 22 19 21 22 20 19 22 23 22 22 21 19 20 22 19 21 20 19 21 21 22 23 19 26 22 24 21 22 21 28 22 19 19 19 22 27 19 22 23 19 19 20 22 22 24 21 18 21 19 21 18 20 20 20 22 20 21 23 19 25 21 21 25 22 22]
+Average Estimated Count: 5443134
+Harmonic Estimated Count: 959376
+Custom Estimated Count: 1639832
+Average estimation: 2680781
+Time taken: 44.36 s
+[../../data/small_test_result.csv small.txt 128 xxhash true 5443134 959376 1639832 2680781 44.36 2000000]
+--------------------------------------------------
+Total time taken: 4 minutes and 36 seconds
+
+
+ -------------------------------------------------- 
+ RESULTS
+ -------------------------------------------------- 
+
+
+   fileSize  numHashes hashType  parseIP  averageEstimatedCount  \
+0     small          8    fnv32    False                1571475   
+1     small          8    fnv32     True                1368704   
+2     small         16    fnv32    False                3117604   
+3     small         16    fnv32     True                1672861   
+4     small         64    fnv32    False                6520355   
+5     small         64    fnv32     True                5614222   
+6     small        128    fnv32    False                7214212   
+7     small        128    fnv32     True                6027685   
+8     small          8    fnv64    False                1926325   
+9     small          8    fnv64     True               17387614   
+10    small         16    fnv64    False                2534638   
+11    small         16    fnv64     True                9555584   
+12    small         64    fnv64    False                9628454   
+13    small         64    fnv64     True                7321934   
+14    small        128    fnv64    False                7858961   
+15    small        128    fnv64     True                7727476   
+16    small          8   xxhash    False               11507255   
+17    small          8   xxhash     True                3801956   
+18    small         16   xxhash    False                6818175   
+19    small         16   xxhash     True                2509291   
+20    small         64   xxhash    False                6073625   
+21    small         64   xxhash     True                2249491   
+22    small        128   xxhash    False                4402349   
+23    small        128   xxhash     True                5443134   
+
+    harmonicEstimatedCount  customEstimatedCount  averageOfAverages  \
+0                   850973               1051846            1158098   
+1                   961285               1147046            1159012   
+2                   916722               1364075            1799467   
+3                   988750               1250863            1304158   
+4                   963375               1867422            3117051   
+5                  1112778               1908314            2878438   
+6                  1115768               2294092            3541358   
+7                  1015226               1731081            2924664   
+8                   879820               1250863            1352336   
+9                  1234101               3537974            7386563   
+10                  891148               1364075            1596620   
+11                 1265118               2294092            4371598   
+12                  889121               1657689            4058421   
+13                  987354               1622168            3310486   
+14                  905972               1731081            3498671   
+15                  924181               1693988            3448548   
+16                 1467403               3537974            5504210   
+17                 1384250               2294092            2493433   
+18                 1123884               2196830            3379630   
+19                 1003080               1487535            1666635   
+20                 1118586               2244934            3145715   
+21                  979422               1424468            1551127   
+22                 1201519               2014502            2539457   
+23                  959376               1639832            2680781   
+
+    elapsedTimeSec  realCount  perc_accuracy  perc_error  
+0             0.85    2000000          52.59       47.41  
+1             2.12    2000000          57.35       42.65  
+2             1.55    2000000          68.20       31.80  
+3             3.99    2000000          62.54       37.46  
+4             5.75    2000000          93.37        6.63  
+5            15.09    2000000          95.42        4.58  
+6            12.44    2000000          85.30       14.70  
+7            34.20    2000000          86.55       13.45  
+8             0.89    2000000          62.54       37.46  
+9             2.49    2000000          23.10       76.90  
+10            1.79    2000000          68.20       31.80  
+11            4.56    2000000          85.30       14.70  
+12            6.85    2000000          82.88       17.12  
+13           17.84    2000000          81.11       18.89  
+14           14.78    2000000          86.55       13.45  
+15           36.05    2000000          84.70       15.30  
+16            1.11    2000000          23.10       76.90  
+17            3.28    2000000          85.30       14.70  
+18            2.87    2000000          90.16        9.84  
+19            7.07    2000000          74.38       25.62  
+20           11.23    2000000          87.75       12.25  
+21           23.23    2000000          71.22       28.78  
+22           18.59    2000000          99.27        0.73  
+23           44.36    2000000          81.99       18.01  

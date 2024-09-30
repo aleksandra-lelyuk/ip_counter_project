@@ -1,0 +1,290 @@
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 8
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[26 26 25 26 25 25 24 25]
+Average Estimated Count: 34065529
+Harmonic Estimated Count: 27685001
+Custom Estimated Count: 30865500
+Average estimation: 30872010
+Time taken: 27.85 s
+[../../data/large_test_result.csv large.txt 8 fnv32 false 34065529 27685001 30865500 30872010 27.85 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 16
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[26 26 25 26 25 25 24 25 25 28 30 24 25 25 25 25]
+Average Estimated Count: 90841410
+Harmonic Estimated Count: 28334330
+Custom Estimated Count: 38330563
+Average estimation: 52502101
+Time taken: 57.93 s
+[../../data/large_test_result.csv large.txt 16 fnv32 false 90841410 28334330 38330563 52502101 57.93 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 64
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[26 26 25 26 25 25 24 25 25 28 30 24 25 25 25 25 24 25 24 27 26 26 24 24 25 25 27 24 24 25 24 26 25 31 28 26 24 27 27 27 25 25 24 25 28 25 25 25 24 25 25 25 25 26 29 27 29 23 26 27 25 24 24 25]
+Average Estimated Count: 93781590
+Harmonic Estimated Count: 25635497
+Custom Estimated Count: 37917667
+Average estimation: 52444918
+Time taken: 238.28 s
+[../../data/large_test_result.csv large.txt 64 fnv32 false 93781590 25635497 37917667 52444918 238.28 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 128
+Hash Type: fnv32
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[26 26 25 26 25 25 24 25 25 28 30 24 25 25 25 25 24 25 24 27 26 26 24 24 25 25 27 24 24 25 24 26 25 31 28 26 24 27 27 27 25 25 24 25 28 25 25 25 24 25 25 25 25 26 29 27 29 23 26 27 25 24 24 25 27 28 28 24 26 26 26 25 26 27 25 29 25 25 26 25 27 27 27 26 25 26 26 31 23 27 25 28 26 27 24 29 24 27 23 24 25 26 25 27 25 25 28 25 24 25 30 24 26 31 30 26 26 24 25 24 28 25 27 28 27 28 26 29]
+Average Estimated Count: 125464560
+Harmonic Estimated Count: 28963467
+Custom Estimated Count: 48119451
+Average estimation: 67515826
+Time taken: 475.22 s
+[../../data/large_test_result.csv large.txt 128 fnv32 false 125464560 28963467 48119451 67515826 475.22 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 8
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 27 27 27 26 26 31 26]
+Average Estimated Count: 267657727
+Harmonic Estimated Count: 48676925
+Custom Estimated Count: 87300819
+Average estimation: 134545157
+Time taken: 32.30 s
+[../../data/large_test_result.csv large.txt 8 fnv64 false 267657727 48676925 87300819 134545157 32.30 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 16
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 27 27 27 26 26 31 26 23 29 25 26 26 25 28 28]
+Average Estimated Count: 195876791
+Harmonic Estimated Count: 35867208
+Custom Estimated Count: 73410946
+Average estimation: 101718315
+Time taken: 61.79 s
+[../../data/large_test_result.csv large.txt 16 fnv64 false 195876791 35867208 73410946 101718315 61.79 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 64
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 27 27 27 26 26 31 26 23 29 25 26 26 25 28 28 30 26 26 27 28 30 25 25 25 28 26 25 28 29 24 26 27 28 27 26 27 25 27 31 25 30 28 29 28 24 26 27 25 26 28 27 27 24 25 25 27 29 30 27 27 24 27 27]
+Average Estimated Count: 200236368
+Harmonic Estimated Count: 45470661
+Custom Estimated Count: 87300819
+Average estimation: 111002616
+Time taken: 249.18 s
+[../../data/large_test_result.csv large.txt 64 fnv64 false 200236368 45470661 87300819 111002616 249.18 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 128
+Hash Type: fnv64
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 27 27 27 26 26 31 26 23 29 25 26 26 25 28 28 30 26 26 27 28 30 25 25 25 28 26 25 28 29 24 26 27 28 27 26 27 25 27 31 25 30 28 29 28 24 26 27 25 26 28 27 27 24 25 25 27 29 30 27 27 24 27 27 28 26 25 27 27 24 30 28 26 26 25 24 23 24 24 26 26 25 25 26 24 25 28 26 27 30 25 26 25 25 27 25 28 26 26 24 30 26 25 25 25 22 26 26 30 25 26 27 26 26 27 28 26 26 29 27 25 27 32 25 26 27 28 28]
+Average Estimated Count: 185358045
+Harmonic Estimated Count: 37602053
+Custom Estimated Count: 72620164
+Average estimation: 98526754
+Time taken: 417.49 s
+[../../data/large_test_result.csv large.txt 128 fnv64 false 185358045 37602053 72620164 98526754 417.49 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 8
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 29 29 25 23 30 24 31]
+Average Estimated Count: 422574775
+Harmonic Estimated Count: 22638502
+Custom Estimated Count: 95202218
+Average estimation: 180138498
+Time taken: 33.08 s
+[../../data/large_test_result.csv large.txt 8 xxhash false 422574775 22638502 95202218 180138498 33.08 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 16
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 29 29 25 23 30 24 31 25 25 27 26 25 25 26 27]
+Average Estimated Count: 237242076
+Harmonic Estimated Count: 28304155
+Custom Estimated Count: 64464066
+Average estimation: 110003432
+Time taken: 63.46 s
+[../../data/large_test_result.csv large.txt 16 xxhash false 237242076 28304155 64464066 110003432 63.46 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 64
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 29 29 25 23 30 24 31 25 25 27 26 25 25 26 27 26 24 27 25 25 25 26 26 26 24 26 27 33 26 28 29 36 25 24 28 26 28 24 25 24 24 25 26 27 24 27 27 26 24 26 29 24 28 25 25 28 25 28 23 26 27 24 29]
+Average Estimated Count: 1057045251
+Harmonic Estimated Count: 29868504
+Custom Estimated Count: 62403207
+Average estimation: 383105654
+Time taken: 279.01 s
+[../../data/large_test_result.csv large.txt 64 xxhash false 1057045251 29868504 62403207 383105654 279.01 60000000]
+--------------------------------------------------
+
+
+--------------------------------------------------
+CONFIGURATIONS
+--------------------------------------------------
+File Name: large.txt
+Number of Hashes: 128
+Hash Type: xxhash
+Parse IPs: false
+--------------------------------------------------
+Processed 300000000 lines
+Number of trailing zeros from each hash:
+[24 29 29 25 23 30 24 31 25 25 27 26 25 25 26 27 26 24 27 25 25 25 26 26 26 24 26 27 33 26 28 29 36 25 24 28 26 28 24 25 24 24 25 26 27 24 27 27 26 24 26 29 24 28 25 25 28 25 28 23 26 27 24 29 26 24 25 24 25 25 27 24 29 25 24 24 28 26 25 24 24 24 25 27 32 25 26 25 27 26 24 24 27 25 24 27 23 23 26 26 27 24 29 26 24 26 26 29 24 29 31 26 26 25 28 25 24 25 25 29 25 25 25 25 29 26 23 27]
+Average Estimated Count: 605829072
+Harmonic Estimated Count: 27007077
+Custom Estimated Count: 52191240
+Average estimation: 228342463
+Time taken: 549.09 s
+[../../data/large_test_result.csv large.txt 128 xxhash false 605829072 27007077 52191240 228342463 549.09 60000000]
+--------------------------------------------------
+Total time taken: 41 minutes and 26 seconds
+
+
+ -------------------------------------------------- 
+ RESULTS
+ -------------------------------------------------- 
+
+
+   fileSize  numHashes hashType  parseIP  averageEstimatedCount  \
+0     large          8    fnv32    False               34065529   
+1     large         16    fnv32    False               90841410   
+2     large         64    fnv32    False               93781590   
+3     large        128    fnv32    False              125464560   
+4     large          8    fnv64    False              267657727   
+5     large         16    fnv64    False              195876791   
+6     large         64    fnv64    False              200236368   
+7     large        128    fnv64    False              185358045   
+8     large          8   xxhash    False              422574775   
+9     large         16   xxhash    False              237242076   
+10    large         64   xxhash    False             1057045251   
+11    large        128   xxhash    False              605829072   
+
+    harmonicEstimatedCount  customEstimatedCount  averageOfAverages  \
+0                 27685001              30865500           30872010   
+1                 28334330              38330563           52502101   
+2                 25635497              37917667           52444918   
+3                 28963467              48119451           67515826   
+4                 48676925              87300819          134545157   
+5                 35867208              73410946          101718315   
+6                 45470661              87300819          111002616   
+7                 37602053              72620164           98526754   
+8                 22638502              95202218          180138498   
+9                 28304155              64464066          110003432   
+10                29868504              62403207          383105654   
+11                27007077              52191240          228342463   
+
+    elapsedTimeSec  realCount  perc_accuracy  perc_error  
+0            27.85   60000000          51.44       48.56  
+1            57.93   60000000          63.88       36.12  
+2           238.28   60000000          63.20       36.80  
+3           475.22   60000000          80.20       19.80  
+4            32.30   60000000          54.50       45.50  
+5            61.79   60000000          77.65       22.35  
+6           249.18   60000000          54.50       45.50  
+7           417.49   60000000          78.97       21.03  
+8            33.08   60000000          41.33       58.67  
+9            63.46   60000000          92.56        7.44  
+10          279.01   60000000          95.99        4.01  
+11          549.09   60000000          86.99       13.01  
+['fnv32', 'fnv64', 'xxhash']

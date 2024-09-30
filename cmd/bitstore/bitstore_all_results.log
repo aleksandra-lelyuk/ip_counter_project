@@ -1,0 +1,12 @@
+Processing file: ../flajolet_martin_experiment/small.txt
+Number of unique elements: 2000000
+Total time taken by bitset algo on small test dataset: 0 minutes and 1 seconds
+Processing file: ../flajolet_martin_experiment/medium.txt
+Number of unique elements: 20000000
+Total time taken by bitset algo on medium test dataset: 0 minutes and 15 seconds
+Processing file: ../flajolet_martin_experiment/large.txt
+Number of unique elements: 60000000
+Total time taken by bitset algo on large test dataset: 0 minutes and 47 seconds
+Processing file: ../flajolet_martin/ip_addresses
+Number of unique elements: 1000000000
+Total time taken by bitset algo on FINAL dataset: 8 minutes and 33 seconds
