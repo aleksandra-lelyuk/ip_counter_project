@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"ip_counter_project/ip_generator"
+	"ip_counter_project/pkg/ip_generator"
 )
 
 func main() {

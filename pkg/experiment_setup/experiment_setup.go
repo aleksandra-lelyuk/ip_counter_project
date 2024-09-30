@@ -3,7 +3,7 @@ package experiment_setup
 import (
 	"encoding/csv"
 	"fmt"
-	"ip_counter_project/flajolet_martin"
+	"ip_counter_project/pkg/flajolet_martin"
 	"os"
 	"runtime/pprof"
 	"strconv"

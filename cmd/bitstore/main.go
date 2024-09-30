@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"ip_counter_project/bitstore"
+	"ip_counter_project/pkg/bitstore"
 	"os"
 	"runtime/pprof"
 	"time"

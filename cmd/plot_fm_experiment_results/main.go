@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ip_counter_project/print_results"
+	"ip_counter_project/pkg/print_results"
 )
 
 func main() {

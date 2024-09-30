@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"ip_counter_project/experiment_setup"
-	"ip_counter_project/print_results"
+	"ip_counter_project/pkg/experiment_setup"
+	"ip_counter_project/pkg/print_results"
 	"time"
 )
 
