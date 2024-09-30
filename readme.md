@@ -6,7 +6,7 @@
 To solve the problem of counting the number of unique IPv4 address in a large (~120GB) file, 
 two approaches were used:
 
-1. **Flajolet Martin Algorithm**: a probabilistic approach typically to count number of unique elements in a stream _on the fly_ and with _minimal memory consumption_
+1. **Flajolet Martin Algorithm**: a probabilistic approach used to count number of unique elements in a stream _on the fly_ and with _minimal memory consumption_
 2. **Bitstore**: an approach based on exploiting the known maximum number of unique IPv4 addresses by efficiently representing each IP address as one index of the bitstore and counting set digits.
 
 ## Results overview:
@@ -30,7 +30,7 @@ Both solutions were tested on 3 generated files with a known number of unique IP
 - medium.txt : 100,000,000 entries with 20,000,000 unique addresses
 - large.txt : 300,000,000 entries with 60,000,000 unique addresses
 
-The file generation algorithm can be found in the _ip_generator_ directory. The main file is located in _cmd/ip_generator_
+The file generation algorithm can be found in the _pkg/ip_generator_ directory. The main file is located in _cmd/ip_generator_
 
 ---
 ## Bitstore
@@ -46,7 +46,7 @@ The set of all possible IPv4 values is a finite set of size $2^{32}$. This is th
 by 32 bits or 4 bytes (each byte = 8 bits). Because of this, a collection of $2^{32}$ would be sufficient to index
 every ip address, with each digit implicitly representing a unique ip address.
 
-Additional implementation details can be found as inline comments in _bitset/bitset.go_
+Additional implementation details can be found as inline comments in _pkg_bitset/bitset.go_
 
 ---
 
@@ -111,7 +111,7 @@ The main steps of the algorithm implementation are as follows:
 6.  Calculate the estimated value of unique elements by averaging the results between hash functions and applying correction term.
 
 
-The full implementation can be found in the _flajolet_martin/flajolet_martin.go_ file. 
+The full implementation can be found in the _pkg/flajolet_martin/flajolet_martin.go_ file. 
 
 ---
 
